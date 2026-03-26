@@ -1,0 +1,12 @@
+data/
+models/*.pth
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+*.egg-info/
+dist/
+build/
+confusion_matrix_*.png
+training_curves_*.png
