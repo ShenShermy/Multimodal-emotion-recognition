@@ -1,5 +1,6 @@
 data/
-models/*.pth
+###models/*.pth
+
 __pycache__/
 *.pyc
 *.pyo
