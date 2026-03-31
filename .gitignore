@@ -1,4 +1,4 @@
-data/
+
 models/*.pth
 __pycache__/
 *.pyc
