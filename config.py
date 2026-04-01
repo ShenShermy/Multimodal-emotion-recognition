@@ -23,7 +23,7 @@ FACE_CLASSES = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise
 FACE_NUM_CLS = len(FACE_CLASSES)   # 7
 FACE_IMG_SIZE = 224                # EfficientNet 输入尺寸
 FACE_BATCH = 64                    # 批大小（显存不足可改为 32）
-FACE_EPOCHS = 30                   # 训练轮数
+FACE_EPOCHS = 100                   # 训练轮数
 FACE_LR = 1e-4                     # 初始学习率
 FACE_MODEL_PATH = os.path.join(MODEL_DIR, "face_model.pth")
 
@@ -34,7 +34,7 @@ SPEECH_SR = 22050                  # 采样率（RAVDESS 原始为 22050Hz）
 SPEECH_DURATION = 3                # 截取/补齐到 3 秒
 SPEECH_N_MELS = 128               # Mel 频谱图的频率 bins 数量
 SPEECH_BATCH = 32                  # 批大小
-SPEECH_EPOCHS = 50                 # 训练轮数
+SPEECH_EPOCHS = 100                 # 训练轮数
 SPEECH_LR = 1e-3                   # 初始学习率
 SPEECH_MODEL_PATH = os.path.join(MODEL_DIR, "speech_model.pth")
 
